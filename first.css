@@ -6,7 +6,11 @@
 height: 60px;
 background-color:#0f1111;
 color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
 }
+/* Amazon logo box 1 */
 .nav-logo{
     height: 50px;
     width: 112px;
@@ -23,4 +27,51 @@ color: white;
 }
 .boader:hover{
     border:1px solid white ;
+}
+/* Address in box 2 */
+.first-pg{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.second-pg{
+    font-size:1rem ;
+    margin-left:3px ;
+}
+.icon-nepal{
+    display: flex;
+    align-items: center;
+}
+/* Serach in box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width:620px ;
+    background-color: aqua;
+    border-radius: 3px;
+}
+.select{
+    background-color: #f3f3f3;
+    width:50px ;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+border: none;
+}
+.input{
+    width: 100%;
+    font-size:1rem ;
+    border: none;
+}
+.search{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+border-top-right-radius:3px ;
+border-bottom-right-radius:3px ;
+color: #0f1111;
 }
