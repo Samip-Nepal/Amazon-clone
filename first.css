@@ -53,7 +53,7 @@ justify-content: space-evenly;
     display: flex;
     justify-content: space-evenly;
     height: 40px;
-    width:620px ;
+    width:650px ;
     background-color: aqua;
     border-radius: 3px;
 }
@@ -88,6 +88,7 @@ color: #0f1111;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .Three{
     display: flex;
@@ -124,6 +125,7 @@ margin-top:1px ;
 /* Box 4 =box no 2 and 3 */
 .sign-acc{
     margin-left:5px ;
+    margin-left:16px ;
 }
 .hello{
     margin-top:11px ;
@@ -137,5 +139,14 @@ font-size:0.85rem ;
 }
 .pg-2{
 font-weight:800 ;
-font-size:1.05rem ;
+font-size:1rem ;
 }
+/* Box 4 =box no 4*/
+.cart{
+    margin-left:16px ;
+}
+.cart1{
+    display: flex;
+    margin-top:23px ;
+}
+
