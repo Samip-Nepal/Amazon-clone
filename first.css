@@ -54,7 +54,7 @@ justify-content: space-evenly;
     display: flex;
     justify-content: space-evenly;
     height: 40px;
-    width:750px ;
+    width:760px ;
     background-color: aqua;
     border-radius: 3px;
 }
@@ -155,4 +155,31 @@ font-size:1.10rem ;
 }
 .nav-search:hover{
 border: 2px solid orange;
+}
+/*panel for second line */
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.panel-service{
+    display: flex;
+    width:94% ;
+    font-size:1rem ;
+}
+.panel-service p{
+    margin-left:15px ;
+}
+.P1{
+    margin-left:0% ;
+}
+/* Hero section */
+.hero{
+    height: 600px;
+    background-image:url(/Amazon-clone/Pic\ 1.jpg) ;
+    background-size: cover;
+    
 }
