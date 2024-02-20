@@ -176,10 +176,29 @@ border: 2px solid orange;
 .P1{
     margin-left:0% ;
 }
-/* Hero section */
+/* hero section */
 .hero{
-    height: 600px;
+    height: 400px;
     background-image:url(/Amazon-clone/Pic\ 1.jpg) ;
     background-size: cover;
-    
+    display: flex;
+    justify-content: center;
+    align-items:flex-end ;
+}
+.hero-message{
+    height: 40px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90% ;
+    color: #0f1111;
+    margin-bottom:10px ;
+}
+.hero-message p{
+    font-size:1rem ;
+}
+.hero-message a{
+    color: #007185;
+    font-size:1rem ;
 }
