@@ -178,21 +178,19 @@ border: 2px solid orange;
 }
 /* hero section */
 .hero{
-    height: 400px;
-    background-image:url(/Amazon-clone/Pic\ 1.jpg) ;
+    height: 450px;
+    background-image:url(/Amazon-clone/Head.jpg) ;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items:flex-end ;
 }
+
 .hero-message{
     height: 40px;
     background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:90% ;
-    color: #0f1111;
+    width:98% ;
+    color:black;
     margin-bottom:10px ;
 }
 .hero-message p{
@@ -201,4 +199,36 @@ border: 2px solid orange;
 .hero-message a{
     color: #007185;
     font-size:1rem ;
+}
+/* Shop section 1*/
+.hero1{
+    padding-top:210px ;
+    padding-left:30px ;
+}
+.shop1{
+    height:400px;
+    width: 98%;
+    display: flex;
+justify-content: space-between;
+}
+.div1{
+    height:395px ;
+    width:330px ;
+    background-color: white;
+
+}
+.div2{
+    height:395px;
+    width:330px ;
+    background-color:white;
+}
+.div3{
+    height:395px;
+    width:330px ;
+    background-color:white;
+}
+.div4{
+    height:395px;
+    width:330px ;
+    background-color: white;
 }
