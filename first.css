@@ -4,6 +4,10 @@
     padding: 0px;
     border:border-box;
 }
+.background{
+    background-color: #e2e7e6;
+    height: 500vh;
+}
 .navbar{
 height: 60px;
 background-color:#0f1111;
@@ -178,7 +182,7 @@ border: 2px solid orange;
 }
 /* hero section */
 .hero{
-    height: 450px;
+    height: 550px;
     background-image:url(/Amazon-clone/Head.jpg) ;
     background-size: cover;
 }
@@ -189,7 +193,7 @@ border: 2px solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:98% ;
+    width:98.5% ;
     color:black;
     margin-bottom:10px ;
 }
@@ -202,33 +206,67 @@ border: 2px solid orange;
 }
 /* Shop section 1*/
 .hero1{
-    padding-top:210px ;
-    padding-left:30px ;
+    padding-top:205px ;
+    padding-left:20px ;
 }
 .shop1{
-    height:400px;
-    width: 98%;
+    height:395px;
+    width: 98.6%;
     display: flex;
-justify-content: space-between;
+    justify-content:space-evenly;
 }
-.div1{
-    height:395px ;
-    width:330px ;
-    background-color: white;
+.box{
+    height:425px;
+    width:340px ;
+    background-color:white;
+}
+h2{
+    padding-left:5% ;
+    padding-top:6% ;
+}
+.p{
+    color: green;
+    margin-left: 19px;
+    margin-bottom: 25px;
+}
+.div10{
+    display: grid;
+    margin: 20px 25px 10px 15px; 
+    height: 310px;
+    width: 90.6%;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+    background-color:white;
+}
+.Pg{
+    display: inline;
+    margin-left:5px;
+}
+.image11{
+    background-image: url(/Amazon-clone/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg);
+background-size: cover;
+height: 110px;
 
 }
-.div2{
-    height:395px;
-    width:330px ;
-    background-color:white;
+.image12{
+    background-image: url(/Amazon-clone/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg);
+    background-size: cover;
+    height: 110px;
 }
-.div3{
-    height:395px;
-    width:330px ;
-    background-color:white;
+
+.image13{
+    background-image: url(/Amazon-clone/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg);
+    background-size: cover;
+    height: 110px;
 }
-.div4{
-    height:395px;
-    width:330px ;
-    background-color: white;
+.image14{
+    background-image: url(/Amazon-clone/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg);
+    background-size: cover;
+    height: 110px;
 }
+
+
+
+
+
+
