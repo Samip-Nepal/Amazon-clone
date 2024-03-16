@@ -210,16 +210,18 @@ border: 2px solid orange;
     padding-left:20px ;
 }
 .shop1{
-    height:395px;
-    width: 98.6%;
+    height:400px;
+    width: 98.5%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 .box{
     height:425px;
     width:340px ;
     background-color:white;
 }
+/* Inside the shop section */
+/* First shop  */
 h2{
     padding-left:5% ;
     padding-top:6% ;
@@ -228,6 +230,7 @@ h2{
     color: green;
     margin-left: 19px;
     margin-bottom: 25px;
+    font-size:13px ;
 }
 .div10{
     display: grid;
@@ -241,6 +244,8 @@ h2{
 .Pg{
     display: inline;
     margin-left:5px;
+    font-size:13px ;
+    font-weight: 450;
 }
 .image11{
     background-image: url(/Amazon-clone/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg);
@@ -264,6 +269,105 @@ height: 110px;
     background-size: cover;
     height: 110px;
 }
+/* Second shop  */
+.div20{
+    display: grid;
+    margin: 20px 25px 10px 20px; 
+    height: 310px;
+    width: 88%;
+    background-color:white;
+}
+.image21{
+    height: 310px;
+    background-image: url(/Amazon-clone/Deal\ in\ pc.jpg);
+    background-size: cover;
+
+}
+/* third shop */
+
+.div30{
+    display: grid;
+    margin: 20px 20px 10px 20px; 
+    height: 310px;
+    width: 88%;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+    background-color:white;
+    column-gap:15px ;
+}
+.image31{
+    background-image: url(/Amazon-clone/Dining.jpg);
+    background-size: cover;
+    height: 110px;
+}
+.image32{
+    background-image: url(/Amazon-clone/Home.jpg);
+    background-size: cover;
+    height: 110px;
+}
+.image33{
+    background-image: url(/Amazon-clone/KItchen.jpg);
+    background-size: cover;
+    height: 110px;
+}
+.image34{
+    background-image: url(/Amazon-clone/Heath\ and\ beauty.jpg);
+    background-size: cover;
+    height: 110px;
+}
+
+/* Last shop */
+.div40{
+    display: grid;
+    margin: 20px 35px 10px 22px; 
+    height: 315px;
+    width:87%;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr) ;
+    background-color:white;
+    column-gap: 5px;
+    row-gap: 15px;
+}
+.div41{
+   grid-column: span 3;
+} 
+.image41{
+    height: 170px;
+    background-image: url(/Amazon-clone/Smartphones.jpg);
+ background-size: cover;
+    width: 100%;
+    border:none ;
+    max-height: 100%;
+    max-width: 100%;
+}
+.image43{
+    background-image: url(/Amazon-clone/Tablets.jpg);
+    background-size: wrap;
+    background-repeat: no-repeat;
+    height:80px ;
+    width:100% ;
+}
+.image44{
+    background-image: url(/Amazon-clone/Laptops.jpg);
+    background-size: wrap;
+    background-repeat: no-repeat;
+    height: 80px;
+}
+.image45{
+    background-image: url(/Amazon-clone/TVs.jpg);
+    background-size: wrap;
+    background-repeat: no-repeat;
+    height: 80px;
+}
+.Pg1{
+font-size:16px ;
+font-weight:450 ;
+}
+
+
+
+
+
 
 
 
