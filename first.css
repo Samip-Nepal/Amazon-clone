@@ -324,7 +324,7 @@ footer {
 }
 .panel-1 {
   height: 49px;
-  width: 100%;
+  width: 100vw;
   background-color: #37475a;
   color: white;
   display: grid;
@@ -336,12 +336,13 @@ footer {
   background-color: #222f3d;
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 .footer-1 {
-  height: 318px;
+  height: 19.8em;
   margin: 40px 10px;
   color: white;
-  margin-right: 100px;
+  margin-right: 6.25em;
 }
 .footer-4 {
   height: 318px;
@@ -391,11 +392,82 @@ footer {
 .footer-1 a:hover {
   text-decoration: underline solid white;
 }
-.lastpanel {
-  height: 90px;
-  background-color: #222f3d;
+hr {
+  border-top: 1px solid white;
 }
-br {
-  background-color: #e2e7e6;
-  height: 1px;
+.lastpanel {
+  height: 68px;
+  background-color: #222f3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last1 {
+  height: 34px;
+  background-image: url(/Amazon-clone/last-logo.png);
+  width: 96px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 4em;
+  border-radius: 3px;
+}
+.last2 {
+  height: 34px;
+  color: white;
+  border: 1px solid white;
+  width: 116px;
+  margin: 0.3em;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last2 i {
+  font-size: 0.9em;
+}
+.last2 p {
+  margin-left: 18px;
+  font-size: 0.85rem;
+}
+.last3 {
+  height: 34px;
+  color: white;
+  border: 1px solid white;
+  margin: 0.3em;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 151px;
+}
+.last3 i {
+  margin-right: 1em;
+  font-size: 0.9em;
+}
+.last3 p {
+  font-size: 0.85rem;
+  margin-right: 1.2em;
+}
+.flags1 {
+  height: 12px;
+  width: 18px;
+  background-image: url(/Amazon-clone/flags-us.png);
+  background-size: cover;
+  background-position: cover;
+  margin-right: 0.7em;
+}
+.last4 {
+  height: 34px;
+  color: white;
+  border: 1px solid white;
+  margin: 0.3em;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 141px;
+}
+.last4 p {
+  font-size: 0.85rem;
+  margin-right: 1.2em;
 }
