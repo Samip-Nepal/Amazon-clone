@@ -26,7 +26,7 @@
   height: 50px;
   width: 112px;
   background-size: cover;
-  background-image: url(/Amazon-clone/logo.png);
+  background-image: url(/Amazon-clone/Images/logo.png);
 }
 .boader {
   border: 1px solid transparent;
@@ -103,7 +103,7 @@
 .image1 {
   height: 13px;
   width: 13px;
-  background-image: url(/Amazon-clone/Nepal-logo.png);
+  background-image: url(/Amazon-clone/Images/Nepal-logo.png);
   background-size: cover;
   margin-right: 3px;
   margin-top: 2px;
@@ -183,7 +183,7 @@
 /* hero section */
 .hero {
   height: 70vh;
-  background-image: url(/Amazon-clone/hero\ section.jpg);
+  background-image: url(/Amazon-clone/Images/hero\ section.jpg );
   background-size: cover;
 }
 
@@ -404,7 +404,7 @@ hr {
 }
 .last1 {
   height: 34px;
-  background-image: url(/Amazon-clone/last-logo.png);
+  background-image: url(/Amazon-clone/Images/last-logo.png);
   width: 96px;
   background-size: cover;
   background-position: center;
@@ -451,7 +451,7 @@ hr {
 .flags1 {
   height: 12px;
   width: 18px;
-  background-image: url(/Amazon-clone/flags-us.png);
+  background-image: url(/Amazon-clone/Images/flags-us.png);
   background-size: cover;
   background-position: cover;
   margin-right: 0.7em;
